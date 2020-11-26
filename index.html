@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <h3 style="color: brown;">Quiz App</h3>
+    <div class="box">
+       
+        <div class="quiz_wrapper">
+            <div id="question" class="question">
+                HTML stands For ?
+            </div>
+    
+            <div>
+                <h2 id="categorie" class="cat">Catégorie de réflexion</h2>
+                    <div class="renit">
+                        <button id="btnRenit" class="btnRenit">Renitialiser le jeu</button>
+                    </div>
+            </div>
+    
+            <div class="options">
+                <ul class="listAnswer" style="text-align: center;">
+                    <li class="answerAll" id="answer1"></li>
+                    <li class="answerAll" id="answer2"></li>
+                    <li class="answerAll" id="answer3"></li>
+                    <li class="answerAll" id="answer4"></li>
+                </ul>
+            </div>
+    
+            <div class="score">
+                <div  class="next">
+                    <button id="next" type="button" class="next">Next</button>
+                </div>
+                <div class="score-card">
+                   <p class="true"> réussit : <span class="numberTrue">0</span></p>
+                   <p class="false"> non réussit : <span class="numberFalse">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
